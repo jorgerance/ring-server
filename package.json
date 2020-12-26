@@ -1,0 +1,31 @@
+{
+  "name": "ring-server",
+  "version": "1.0.0",
+  "description": "Small repo so you can have your ring cameras in a dashboard on a web server!",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "devStart": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Looskie/ring-server.git"
+  },
+  "keywords": [
+    "ring"
+  ],
+  "author": "DEVLOOSKIE",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Looskie/ring-server/issues"
+  },
+  "homepage": "https://github.com/Looskie/ring-server#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.6",
+    "ring-api": "^3.0.7"
+  }
+}
