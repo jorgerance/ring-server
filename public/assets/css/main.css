@@ -1,0 +1,100 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    height: 60px;
+    width: 100%;
+    background-color: #d8d8d8;
+}
+.nav {
+    font-size: 22px;
+    text-align: center;
+}
+.logo {
+    margin-top: 2px;
+    height: 50px;
+}
+main {
+    margin-top: 20px;
+}
+
+.upperContainer {
+    margin-left: 8px;
+}
+
+button {
+    padding: 7px 10px 7px 10px;
+    background-color: #d8d8d8;
+    color: #6d6d6d;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 8px 2px -2px #000;
+    cursor: pointer;
+}
+
+.cameraFeed {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skeletonCamera {
+    flex-basis: 32%;
+    flex-grow: 1;
+    margin: 10px 5px 10px 5px;
+    height: 250px;
+    border-radius: 8px;
+    background-color: #d8d8d8;
+    box-shadow: 8px 2px -2px #000;
+}
+.head {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    padding: 0 8px 0 8px;
+    height: 50px;
+    line-height: 50px;
+    background-color: #bdbdbd;
+    color: #000;
+}
+
+.fa-md {
+    font-size: 1.1em;
+}
+
+.light {
+    margin-right: 10px;
+}
+
+.alarm {
+    margin-right: 7px;
+}
+
+h2, li {
+    display: inline-block;
+}
+ul {
+    width: 100%;
+    list-style-type: none;
+    text-align: right;
+}
+
+h2 {
+    font-weight: 300;
+    float: left;
+}
+@media only screen and (max-width:1200px) {
+    .skeletonCamera {
+        flex-basis: 40%;
+    }
+}
+@media only screen and (max-width:780px) {
+    .skeletonCamera {
+        flex-basis: 100%;
+    }
+}
